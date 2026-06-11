@@ -1,0 +1,19 @@
+{
+  "name": "yuexia-frontend",
+  "version": "2.0.0",
+  "description": "月下 · 小安与小克 前端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
